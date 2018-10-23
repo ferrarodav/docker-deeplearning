@@ -9,7 +9,7 @@ And useful libraries like:
 - Torchtext
 - Fastai
 
-It is built upon (this container)[https://github.com/ferrarodav/docker-scientific], which includes many scientific computation libraries plus [Sacred](https://github.com/IDSIA/sacred): a tool to help you configure, organize, log and reproduce experiments developed at IDSIA.
+It is built upon [this container](https://github.com/ferrarodav/docker-scientific), which includes many scientific computation libraries plus [Sacred](https://github.com/IDSIA/sacred): a tool to help you configure, organize, log and reproduce experiments developed at IDSIA.
 The packages needed to keep track of the code (git), use a mongo database, yaml configuration and a telegram bot notifier are included.
 
 Jupyter is run on port 8080.
