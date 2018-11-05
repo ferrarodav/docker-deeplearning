@@ -15,6 +15,8 @@ ENV PIP_PACKAGES_FRAMEWORKS="\
 RUN pip install --no-cache-dir -U ${PIP_PACKAGES_FRAMEWORKS}
 
 ENV PIP_PACKAGES_OTHERS="\
+    augmentor \
+    pytorch-ignite \
     tensorboardX \
     jupyter-tensorboard"
 RUN pip install --no-cache-dir -U ${PIP_PACKAGES_OTHERS}
